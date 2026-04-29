@@ -100,10 +100,12 @@ npx expo start
 
 ## 📸 Demonstração
 
-### 🏠 Home
+### 🏠 Home, Cadastro e Login
 
 <p align="center">
-<img height="1000" src="https://github.com/user-attachments/assets/d4787146-f00c-4c4a-a8be-ac5677e0f064" />
+<img width="300" alt="Screenshot_1777503543" src="https://github.com/user-attachments/assets/2e70ece2-fd0d-4f05-a8c5-17165a3353aa" />
+<img width="300" alt="Screenshot_1777502718" src="https://github.com/user-attachments/assets/d94ec537-f94a-4440-a3fc-13746f510b1f" />
+<img width="300" alt="Screenshot_1777503596" src="https://github.com/user-attachments/assets/84d84288-f25e-40d6-af2c-cd9583e86a70" />
 </p>
 
 ---
@@ -111,9 +113,8 @@ npx expo start
 ### 🧪 Laboratórios
 
 <p align="center">
-<img width="300" src="https://github.com/user-attachments/assets/6d9325b1-60d4-43e4-91d6-f4478cc17286" />
-<img width="300" src="https://github.com/user-attachments/assets/f56a256c-cdf8-4a08-91c0-cc2c7015b5a2" />
-<img width="300" src="https://github.com/user-attachments/assets/03b2ca88-87f0-455a-b654-d42989c7dda9" />
+<img width="300" alt="Screenshot_1777503548" src="https://github.com/user-attachments/assets/858aabdb-d38f-4f56-b940-fd776b310daf" />
+<img width="300" alt="Screenshot_1777503553" src="https://github.com/user-attachments/assets/2cada3b3-5fbd-4566-afb0-4f1ead89159d" />
 </p>
 
 ---
@@ -121,10 +122,7 @@ npx expo start
 ### 📅 Reservas
 
 <p align="center">
-<img width="230" src="https://github.com/user-attachments/assets/04dcdcf0-3960-4fe1-a42a-0b6c370a03ef" />
-<img width="230" src="https://github.com/user-attachments/assets/d064ed55-3ec4-427a-ada6-ffc72e42e120" />
-<img width="230" src="https://github.com/user-attachments/assets/34ecbbbe-df3e-44a2-aa3b-de6bdfc7bce5" />
-<img width="230" src="https://github.com/user-attachments/assets/eb094903-7c9f-40e9-8a8e-db505422f563" />
+<img width="300" alt="Screenshot_1777503560" src="https://github.com/user-attachments/assets/aa8a357a-0218-4ddb-9d99-9d91f540775e" />
 </p>
 
 ---
