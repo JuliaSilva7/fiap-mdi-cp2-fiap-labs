@@ -77,10 +77,10 @@ O aplicativo foi desenvolvido com base na **identidade visual da FIAP**, utiliza
 
 ```bash
 # Clonar o repositório
-git clone https://github.com/JuliaSilva7/fiap-mdi-cp1-fiap-labs.git
+git clone https://github.com/JuliaSilva7/fiap-mdi-cp2-fiap-labs.git
 
 # Entrar na pasta
-cd fiap-mdi-cp1-fiap-labs
+cd fiap-mdi-cp2-fiap-labs
 
 # Instalar dependências
 npm install
