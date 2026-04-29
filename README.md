@@ -100,7 +100,7 @@ npx expo start
 ###  Vídeo / GIF
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/2efc2053-52a2-4f16-a712-e51c17999b67" width="350"/>
+  <img width="400" height="867" alt="screen-20260429-232927" src="https://github.com/user-attachments/assets/5192776b-9663-4b30-b7a4-42da61177ec7" />
 </p>
 
 
