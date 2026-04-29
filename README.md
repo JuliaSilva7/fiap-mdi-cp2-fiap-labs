@@ -1,51 +1,79 @@
-#  FIAP Labs
+# 🚀 FIAP Labs
 
 ---
 
-##  Sobre o Projeto
+## 📱 Sobre o Projeto
 
-O **FIAP Labs** é um aplicativo mobile desenvolvido com React Native + Expo que tem como objetivo melhorar o processo de reserva de laboratórios dentro da FIAP.
+O **FIAP Labs** é um aplicativo mobile desenvolvido com **React Native + Expo** que tem como objetivo otimizar o processo de **reserva de laboratórios** dentro da FIAP.
 
-Atualmente, alunos enfrentam dificuldades para identificar quais laboratórios estão disponíveis e organizar o uso desses espaços. O processo pode ser confuso e pouco eficiente.
+Atualmente, alunos enfrentam dificuldades para identificar a disponibilidade dos laboratórios, o que pode gerar conflitos de uso, falta de organização e perda de tempo.
 
-A solução proposta é um aplicativo simples e intuitivo que permite visualizar os laboratórios disponíveis e realizar reservas de forma rápida.
-
----
-
-##  Problema Escolhido
-
-A operação escolhida foi a **reserva de laboratórios**, pois é uma atividade comum no dia a dia dos alunos e pode gerar conflitos de uso e falta de organização.
+A solução proposta é um aplicativo simples, intuitivo e eficiente que permite visualizar os laboratórios disponíveis e realizar reservas de forma rápida.
 
 ---
 
-##  Funcionalidades
+## 🎯 Problema Escolhido
 
-*  Visualização de laboratórios disponíveis
-*  Status do laboratório (Livre ou Ocupado)
-*  Reserva de laboratório
-*  Bloqueio de reserva para labs ocupados
-*  Feedback visual ao usuário
-*  Mensagem para estado vazio (sem reservas)
+A operação escolhida foi a **reserva de laboratórios**, pois é uma atividade frequente no dia a dia acadêmico e apresenta falhas no processo atual, como:
 
----
-
-##  Integrantes do Grupo
-
-* Julia Carolina Ferreira Silva RM558896
+* Falta de visibilidade de disponibilidade
+* Conflito de horários
+* Processo manual ou desorganizado
 
 ---
 
-##  Como Rodar o Projeto
+## ⚙️ Funcionalidades
 
-###  Pré-requisitos
+* 📋 Listagem de laboratórios disponíveis
+* 📊 Status do laboratório (Livre / Ocupado)
+* 📅 Reserva de laboratório
+* 🚫 Bloqueio de reserva para labs ocupados
+* 💾 Persistência de dados com AsyncStorage
+* 🔐 Sistema de login e cadastro de usuários
+* 🔄 Feedback visual (loading e ações)
+* 📭 Tratamento de estado vazio (sem reservas)
+
+---
+
+## 🎨 UX & Design
+
+O aplicativo foi desenvolvido com base na **identidade visual da FIAP**, utilizando:
+
+* Tema **Dark Mode**
+* Cores institucionais: **Preto + Rosa (#ED145B)**
+* Layout consistente entre telas
+* Componentes reutilizáveis
+* Interface limpa e intuitiva
+
+---
+
+## 👥 Integrantes do Grupo
+
+* Julia Carolina Ferreira Silva — RM558896
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+* React Native
+* Expo
+* Expo Router
+* AsyncStorage
+* JavaScript (ES6+)
+
+---
+
+## ▶️ Como Rodar o Projeto
+
+### 📌 Pré-requisitos
 
 * Node.js instalado
-* Expo
-* App Expo Go (no celular) ou Emulador Android
+* Expo CLI
+* App Expo Go (celular) ou Emulador Android
 
 ---
 
-###  Passo a passo
+### 💻 Passo a passo
 
 ```bash
 # Clonar o repositório
@@ -63,100 +91,101 @@ npx expo start
 
 ---
 
-###  Como Executar
+### 📱 Executar
 
-*  No celular: escanear o QR Code com o Expo Go
-*  No emulador: pressionar **A** no terminal
-
----
-
-##  Demonstração
-
-###  Prints das Telas
-
-* Tela Home
-<p align="center">
-<img height="1000" alt="Imagem da Home" src="https://github.com/user-attachments/assets/d4787146-f00c-4c4a-a8be-ac5677e0f064" />
-</p>
-
-* Tela de Laboratórios
-<p align="center">
-<img  width="300" alt="Imagem Lab 1" src="https://github.com/user-attachments/assets/6d9325b1-60d4-43e4-91d6-f4478cc17286" />
-<img  width="300" alt="Imagem Lab 2" src="https://github.com/user-attachments/assets/f56a256c-cdf8-4a08-91c0-cc2c7015b5a2" />
-<img  width="300" alt="Imagem Lab 3" src="https://github.com/user-attachments/assets/03b2ca88-87f0-455a-b654-d42989c7dda9" />
-</p>
-
-* Tela de Reservas
-<p align="center">
-<img width="230"  alt="Screenshot_1775617178" src="https://github.com/user-attachments/assets/04dcdcf0-3960-4fe1-a42a-0b6c370a03ef" />
-<img width="230" alt="Screenshot_1775617181" src="https://github.com/user-attachments/assets/d064ed55-3ec4-427a-ada6-ffc72e42e120" />
-<img width="230" alt="Screenshot_1775617188" src="https://github.com/user-attachments/assets/34ecbbbe-df3e-44a2-aa3b-de6bdfc7bce5" />
-<img width="230" alt="Screenshot_1775617197" src="https://github.com/user-attachments/assets/eb094903-7c9f-40e9-8a8e-db505422f563" />
-</p>
-
+* No celular: escanear o QR Code com o Expo Go
+* No emulador: pressionar **A** no terminal
 
 ---
 
-###  Vídeo / GIF
+## 📸 Demonstração
+
+### 🏠 Home
 
 <p align="center">
-  <img width="400" height="867" alt="screen-20260429-232927" src="https://github.com/user-attachments/assets/5192776b-9663-4b30-b7a4-42da61177ec7" />
+<img height="1000" src="https://github.com/user-attachments/assets/d4787146-f00c-4c4a-a8be-ac5677e0f064" />
 </p>
-
 
 ---
 
-##  Decisões Técnicas
+### 🧪 Laboratórios
 
-###  Estrutura do Projeto
+<p align="center">
+<img width="300" src="https://github.com/user-attachments/assets/6d9325b1-60d4-43e4-91d6-f4478cc17286" />
+<img width="300" src="https://github.com/user-attachments/assets/f56a256c-cdf8-4a08-91c0-cc2c7015b5a2" />
+<img width="300" src="https://github.com/user-attachments/assets/03b2ca88-87f0-455a-b654-d42989c7dda9" />
+</p>
 
-O projeto foi organizado utilizando o padrão do Expo Router, com separação em:
+---
 
-* `app/` → telas da aplicação
+### 📅 Reservas
+
+<p align="center">
+<img width="230" src="https://github.com/user-attachments/assets/04dcdcf0-3960-4fe1-a42a-0b6c370a03ef" />
+<img width="230" src="https://github.com/user-attachments/assets/d064ed55-3ec4-427a-ada6-ffc72e42e120" />
+<img width="230" src="https://github.com/user-attachments/assets/34ecbbbe-df3e-44a2-aa3b-de6bdfc7bce5" />
+<img width="230" src="https://github.com/user-attachments/assets/eb094903-7c9f-40e9-8a8e-db505422f563" />
+</p>
+
+---
+
+### 🎥 Vídeo / GIF
+
+<p align="center">
+<img width="400" height="867" src="https://github.com/user-attachments/assets/5192776b-9663-4b30-b7a4-42da61177ec7" />
+</p>
+
+---
+
+## 🧠 Decisões Técnicas
+
+### 📂 Estrutura do Projeto
+
+O projeto foi estruturado utilizando o **Expo Router (file-based routing)**:
+
+* `app/` → telas (rotas)
 * `components/` → componentes reutilizáveis
-* `styles/` → configuração de estilos
+* `services/` → regras de negócio e armazenamento
+* `styles/` → tema global (cores e padronização)
 
 ---
 
-###  Hooks Utilizados
+### ⚛️ Hooks Utilizados
 
 * **useState**
 
-  * Gerenciar estado dos laboratórios
-  * Controlar reservas
-  * Feedback de interface
+  * Controle de estado (login, reservas, labs)
 
 * **useEffect**
 
-  * Simular carregamento de dados (loading)
+  * Carregamento inicial de dados
 
 ---
 
-###  Navegação
+### 🧭 Navegação
 
-A navegação foi implementada utilizando **Expo Router**, com múltiplas telas:
+Implementada com **Expo Router**, utilizando:
 
-* Home (`index.jsx`)
-* Laboratórios (`labs.jsx`)
-* Reservas (`reservas.jsx`)
+* Stack para fluxo geral
+* Tabs para navegação principal
+* Rotas dinâmicas para detalhes (`/labs/[id]`)
 
 ---
 
-##  Próximos Passos
+## 🚀 Próximos Passos
 
 Com mais tempo, o projeto poderia evoluir para:
 
-*  Sistema de login de usuários
-*  Integração com API real
-*  Persistência de dados (AsyncStorage)
-*  Notificações de reserva
-*  Histórico de uso de laboratórios
+* 👤 Perfil de usuário
+* 🔔 Notificações de reserva
+* ☁️ Integração com API real
+* 📊 Dashboard com estatísticas
+* 📅 Seleção de horários
 
 ---
 
-##  Considerações Finais
+## 📌 Considerações Finais
 
-O projeto foi desenvolvido com foco na simplicidade e usabilidade, buscando resolver um problema real da rotina acadêmica com uma solução prática e eficiente.
+O projeto foi desenvolvido com foco em resolver um problema real da rotina acadêmica, utilizando boas práticas de desenvolvimento mobile, organização de código e uma interface consistente e moderna.
 
 ---
-
